@@ -1,0 +1,28 @@
+{
+  "name": "@rgbitsoft/tauri-version-sync",
+  "version": "1.0.1",
+  "description": "Sync versions between package.json, tauri.conf.json, and Cargo.toml in Tauri projects.",
+  "main": "./dist/index.js",
+  "bin": {
+     "tauri-version-sync": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "vitest run"
+  },
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": ["tauri", "tauri-v1", "tauri-v2", "version-sync", "automation"],
+  "author": "senspond20",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
