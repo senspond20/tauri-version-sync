@@ -44,9 +44,6 @@ npx tauri-version-sync 1.0.5
 ```json
 "scripts": {
     "tvs": "tauri-version-sync"
-},
-"devDependencies": {
-    "tauri-version-sync": "^1.0.1" 
 }
 ```
 
